@@ -22,6 +22,6 @@ Visit my portfolio website to check out the projects I've worked on, learn more 
 
 ## Contact
 
-If you have any questions or want to collaborate on a project, feel free to reach out to me at [welzyalzy@gmail.com](mailto:welzyalzy@gmail.com).
+If you have any questions or want to collaborate on a project, feel free to reach out to me at [manvendra.raj.2002@gmail.com](mailto:manvendra.raj.2002@gmail.com).
 
 Thank you for visiting my portfolio website!
