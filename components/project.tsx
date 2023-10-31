@@ -23,7 +23,7 @@ export default function Project({
 
   return (
     <a
-      href={`https://${title}.vercel.app`}
+      href={`https://${title}.alzywelzy.com`}
       target="_blank"
       rel="noopener noreferrer"
     >
