@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { websiteUrl } from "@/lib/data";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -23,7 +24,7 @@ export default function Project({
 
   return (
     <a
-      href={`https://${title}.alzywelzy.com`}
+      href={`https://${title}.${websiteUrl}`}
       target="_blank"
       rel="noopener noreferrer"
     >
