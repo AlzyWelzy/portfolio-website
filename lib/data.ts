@@ -4,7 +4,7 @@ import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import articify from "@/public/articify.png";
 import epiphora from "@/public/epiphora.png";
-import slicio from "@/public/slicio.png";
+import mozzify from "@/public/mozzify.png";
 
 export const links = [
   {
@@ -77,11 +77,11 @@ export const projectsData = [
     imageUrl: epiphora,
   },
   {
-    title: "Slicio",
+    title: "Mozzify",
     description:
       "Designed an interactive web application that presents a dynamic menu and provides essential order information.",
     tags: ["React", "Git", "Vercel", "Tailwind", "Vite"],
-    imageUrl: slicio,
+    imageUrl: mozzify,
   },
 ] as const;
 
