@@ -13,7 +13,16 @@ export const metadata = {
   title: "Manvendra Rajpoot | Personal Portfolio",
   description:
     "Manvendra Rajpoot is a full-stack developer with 8 years of experience.",
-  keywords: ["Manvendra Rajpoot", "Portfolio", "Developer", "Full-stack"],
+  keywords: [
+    "Manvendra Rajpoot",
+    "Portfolio",
+    "Developer",
+    "Full-stack",
+    "alzywelzy",
+    "Alzy Welzy",
+    "welzyalzy",
+    "Welzy Alzy",
+  ],
   authors: {
     name: "Manvendra Rajpoot",
     url: "https://www.alzywelzy.com",
