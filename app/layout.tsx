@@ -6,10 +6,11 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import type { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Manvendra Rajpoot | Personal Portfolio",
   description:
     "Manvendra Rajpoot is a full-stack developer with 8 years of experience.",
@@ -37,6 +38,13 @@ export const metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
+  },
+  twitter: {
+    title: "Manvendra Rajpoot | Personal Portfolio",
+    creator: "@AlzyWelzy",
+    site: "@AlzyWelzy",
+    description:
+      "Manvendra Rajpoot is a full-stack developer with 8 years of experience.",
   },
 };
 
