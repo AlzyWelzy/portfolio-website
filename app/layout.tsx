@@ -13,6 +13,22 @@ export const metadata = {
   title: "Manvendra Rajpoot | Personal Portfolio",
   description:
     "Manvendra Rajpoot is a full-stack developer with 8 years of experience.",
+  keywords: ["Manvendra Rajpoot", "Portfolio", "Developer", "Full-stack"],
+  authors: {
+    name: "Manvendra Rajpoot",
+    url: "https://www.alzywelzy.com",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
