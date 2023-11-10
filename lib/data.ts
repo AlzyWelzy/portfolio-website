@@ -102,7 +102,7 @@ export const skillsData = [
   "PostgreSQL",
   "Framer Motion",
   "Python",
-  "Flask",
+  "Django",
 ] as const;
 
 export const emailId = "manvendra@alzywelzy.com" as const;
