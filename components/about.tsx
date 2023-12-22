@@ -41,7 +41,7 @@ export default function About() {
         video games, watching movies, and reading comics. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about <span className="font-medium">finance and history</span>.
-        I'm also learning how to play the swim.
+        I'm also learning how to swim.
       </p>
     </motion.section>
   );
