@@ -77,16 +77,18 @@ export const projectsData = [
   {
     title: "Main Site (Springreen)",
     description:
-      "Led the complete redesign and redevelopment of the Springreen company website, enhancing its visual appeal and user experience to better represent the company's brand.",
-    tags: ["Django", "React", "TypeScript", "Vite", "Tailwind"],
+      "Led the complete redesign and redevelopment of the Springreen website, enhancing its visual appeal and user experience to better represent the company.",
+    tags: ["Django", "Python", "JavaScript", "HTML", "CSS"],
     imageUrl: springreen_main_site,
+    project_link: "https://springreen.in",
   },
   {
     title: "Aadhiran Ventures",
     description:
       "Developed a customized web platform for Aadhiran Ventures, providing tailored solutions to meet their business needs at Springreen.",
-    tags: ["Django", "Python", "React", "TypeScript"],
+    tags: ["Flask", "Python", "JavaScript", "HTML", "CSS"],
     imageUrl: aadhiran_ventures,
+    project_link: "https://aadhiranventures.com/",
   },
 
   {
@@ -95,6 +97,7 @@ export const projectsData = [
       "Developed an open-source AI-powered web app for automated article summarization, streamlining the reading experience.",
     tags: ["React", "Redux", "Vite", "Tailwind", "TypeScript"],
     imageUrl: articify,
+    project_link: "https://articify.alzywelzy.com/",
   },
   {
     title: "Epiphora",
@@ -102,13 +105,7 @@ export const projectsData = [
       "Developed a web application for sharing and categorizing interesting facts, featuring real-time voting and fact dispute handling.",
     tags: ["React", "SCSS", "Vite", "Supabase", "TypeScript"],
     imageUrl: epiphora,
-  },
-  {
-    title: "Mozzify",
-    description:
-      "Designed an interactive web application that presents a dynamic menu and provides essential order information.",
-    tags: ["React", "Git", "Vercel", "Tailwind", "Vite"],
-    imageUrl: mozzify,
+    project_link: "https://epiphora.alzywelzy.com/",
   },
 ] as const;
 
@@ -118,6 +115,7 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Python",
 
   // Frontend Development
   "React",
@@ -128,7 +126,6 @@ export const skillsData = [
 
   // Backend Development
   "Node.js",
-  "Python",
   "Django",
   "Flask",
   "Express",
@@ -136,12 +133,12 @@ export const skillsData = [
   // Databases
   "MongoDB",
   "PostgreSQL",
-  "Postgres",
 
   // APIs and Services
   "GraphQL",
   "Supabase",
   "Vercel",
+  "AWS",
 
   // Version Control
   "Git",

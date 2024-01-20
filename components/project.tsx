@@ -13,6 +13,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  project_link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -23,11 +24,7 @@ export default function Project({
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
-    <a
-      href={`https://${title}.${websiteUrl}`}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href={project_link} target="_blank" rel="noopener noreferrer">
       <motion.div
         ref={ref}
         style={{
