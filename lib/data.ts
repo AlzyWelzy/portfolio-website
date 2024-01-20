@@ -1,10 +1,14 @@
 import React from "react";
 // import { CgWorkAlt } from "react-icons/cg";
 // import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuGraduationCap, LuCode2 } from "react-icons/lu";
 import articify from "@/public/articify.png";
 import epiphora from "@/public/epiphora.png";
 import mozzify from "@/public/mozzify.png";
+import aadhiran_ventures from "@/public/aadhiran_ventures.png";
+import springreen_main_site from "@/public/springreen_main_site.png";
+import { title } from "process";
+import { icons } from "react-icons";
 
 export const links = [
   {
@@ -35,6 +39,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Full Stack Developer (Springreen)",
+    location: "Salem, Tamil Nadu",
+    description:
+      "I'm currently a Full Stack Developer at Springreen, where I actively contribute to the development of innovative solutions. My responsibilities include designing and implementing robust and scalable web applications. I work closely with cross-functional teams to deliver high-quality software solutions that meet the needs of our clients. This role has provided me with valuable experience in the full software development lifecycle, enhancing my problem-solving and teamwork skills.",
+    icon: React.createElement(LuCode2),
+    date: "2022 - Present",
+  },
+  {
     title: "BCA (Bachelor of Computer Applications)",
     location: "Jhansi, Uttar Pradesh",
     description:
@@ -63,6 +75,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Main Site (Springreen)",
+    description:
+      "Led the complete redesign and redevelopment of the Springreen company website, enhancing its visual appeal and user experience to better represent the company's brand.",
+    tags: ["Django", "React", "TypeScript", "Vite", "Tailwind"],
+    imageUrl: springreen_main_site,
+  },
+  {
+    title: "Aadhiran Ventures",
+    description:
+      "Developed a customized web platform for Aadhiran Ventures, providing tailored solutions to meet their business needs at Springreen.",
+    tags: ["Django", "Python", "React", "TypeScript"],
+    imageUrl: aadhiran_ventures,
+  },
+
+  {
     title: "Articify",
     description:
       "Developed an open-source AI-powered web app for automated article summarization, streamlining the reading experience.",
@@ -86,23 +113,41 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  // Fundamentals
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
+
+  // Frontend Development
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
   "Tailwind",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Express",
-  "PostgreSQL",
   "Framer Motion",
+
+  // Backend Development
+  "Node.js",
   "Python",
   "Django",
+  "Flask",
+  "Express",
+
+  // Databases
+  "MongoDB",
+  "PostgreSQL",
+  "Postgres",
+
+  // APIs and Services
+  "GraphQL",
+  "Supabase",
+  "Vercel",
+
+  // Version Control
+  "Git",
+
+  // Build Tools
+  "Vite",
 ] as const;
 
 export const emailId = "manvendra@alzywelzy.com" as const;
