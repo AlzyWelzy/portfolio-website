@@ -99,14 +99,14 @@ export const projectsData = [
     imageUrl: articify,
     project_link: "https://articify.alzywelzy.com/",
   },
-  {
-    title: "Epiphora",
-    description:
-      "Developed a web application for sharing and categorizing interesting facts, featuring real-time voting and fact dispute handling.",
-    tags: ["React", "SCSS", "Vite", "Supabase", "TypeScript"],
-    imageUrl: epiphora,
-    project_link: "https://epiphora.alzywelzy.com/",
-  },
+  // {
+  //   title: "Epiphora",
+  //   description:
+  //     "Developed a web application for sharing and categorizing interesting facts, featuring real-time voting and fact dispute handling.",
+  //   tags: ["React", "SCSS", "Vite", "Supabase", "TypeScript"],
+  //   imageUrl: epiphora,
+  //   project_link: "https://epiphora.alzywelzy.com/",
+  // },
 ] as const;
 
 export const skillsData = [
