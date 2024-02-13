@@ -139,7 +139,7 @@ export const skillsData = [
   // APIs and Services
   "GraphQL",
   "Supabase",
-  "Vercel",
+  // "Vercel",
   // "AWS",
 
   // Version Control
