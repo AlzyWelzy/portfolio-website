@@ -8,9 +8,7 @@ export default function Footer() {
         &copy; {currentYear} Manvendra Rajpoot. All rights reserved.
       </small>
       <p className="text-xs">
-        <span className="font-semibold">About this website:</span> built with
-        React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
-        Framer Motion, React Email & Resend, Vercel hosting.
+        <span className="font-semibold">Explore my portfolio:</span> A snapshot of my skills, projects, and passion in Web development. Welcome to my creative space!"
       </p>
     </footer>
   );
