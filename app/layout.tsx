@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Manvendra Rajpoot | Personal Portfolio",
   description:
-    "Manvendra Rajpoot is a full-stack developer with 8 years of experience.",
+    "Manvendra Rajpoot is a full-stack developer with 2 years of experience.",
   keywords: [
     "Manvendra Rajpoot",
     "Portfolio",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     creator: "@AlzyWelzy",
     site: "@AlzyWelzy",
     description:
-      "Manvendra Rajpoot is a full-stack developer with 8 years of experience.",
+      "Manvendra Rajpoot is a full-stack developer with 2 years of experience.",
   },
 };
 
