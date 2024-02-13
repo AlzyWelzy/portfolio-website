@@ -134,7 +134,7 @@ export const skillsData = [
   // "Express",
 
   // Databases
-  "MongoDB",
+  // "MongoDB",
   "PostgreSQL",
 
   // APIs and Services
