@@ -115,7 +115,8 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   // "TypeScript",
-  "jQuery",
+  // "jQuery",
+  "HyperScript",
   "HTMX",
   "Python",
 
