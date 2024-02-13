@@ -130,7 +130,8 @@ export const skillsData = [
   // Backend Development
   // "Node.js",
   "Django",
-  "Flask",
+  "Django Rest Framework",
+  // "Flask",
   // "Express",
 
   // Databases
