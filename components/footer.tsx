@@ -8,7 +8,7 @@ export default function Footer() {
         &copy; {currentYear} Manvendra Rajpoot. All rights reserved.
       </small>
       <p className="text-xs">
-        <span className="font-semibold">Explore my portfolio:</span> A snapshot of my skills, projects, and passion in Web development. Welcome to my creative space!"
+        <span className="font-semibold">Explore my work in Web development.</span> Each project reflects my skills and passion. Thanks for visiting!
       </p>
     </footer>
   );
