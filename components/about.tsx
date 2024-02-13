@@ -21,7 +21,7 @@ export default function About() {
       <p className="mb-3">
         After completing my 12th grade with a specialization in{" "}
         <span className="font-medium">PCM</span>, I decided to follow my passion
-        for programming by choosing BCA as my major, where I honed my skills in{" "}
+        for programming by choosing a Computer Science Degree as my major, where I honed my skills in{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
