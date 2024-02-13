@@ -114,21 +114,23 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
+  // "TypeScript",
+  "jQuery",
+  "HTMX",
   "Python",
 
   // Frontend Development
-  "React",
-  "Next.js",
-  "Tailwind",
-  "Redux",
-  "Framer Motion",
+  // "React",
+  // "Next.js",
+  // "Tailwind",
+  // "Redux",
+  // "Framer Motion",
 
   // Backend Development
-  "Node.js",
+  // "Node.js",
   "Django",
   "Flask",
-  "Express",
+  // "Express",
 
   // Databases
   "MongoDB",
@@ -138,13 +140,13 @@ export const skillsData = [
   "GraphQL",
   "Supabase",
   "Vercel",
-  "AWS",
+  // "AWS",
 
   // Version Control
   "Git",
 
   // Build Tools
-  "Vite",
+  // "Vite",
 ] as const;
 
 export const emailId = "manvendra@alzywelzy.com" as const;
