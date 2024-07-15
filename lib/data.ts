@@ -39,12 +39,20 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Full Stack Developer (Radixlink)",
+    location: "Chandler, Arizona",
+    description:
+      "I have recently joined Radixlink as a Full Stack Developer. In this role, I am responsible for designing and implementing robust and scalable web applications. I collaborate closely with cross-functional teams to deliver high-quality software solutions that meet the needs of our clients. My responsibilities include developing and maintaining both front-end and back-end components, ensuring seamless integration and optimal performance. I also participate in code reviews, contribute to technical documentation, and provide mentorship to junior developers. This position allows me to leverage my expertise in various technologies and frameworks, enhancing my problem-solving and teamwork skills while contributing to the development of innovative solutions. I am committed to staying current with industry trends and continuously improving our development processes to deliver the best possible outcomes for our clients.",
+    icon: React.createElement(LuCode2),
+    date: "2024 - 2024",
+  },
+  {
     title: "Full Stack Developer (Springreen)",
     location: "Salem, Tamil Nadu",
     description:
-      "I'm currently a Full Stack Developer at Springreen, where I actively contribute to the development of innovative solutions. My responsibilities include designing and implementing robust and scalable web applications. I work closely with cross-functional teams to deliver high-quality software solutions that meet the needs of our clients. This role has provided me with valuable experience in the full software development lifecycle, enhancing my problem-solving and teamwork skills.",
+      "I worked as a Full Stack Developer at Springreen, where I actively contributed to the development of innovative solutions. My responsibilities included designing and implementing robust and scalable web applications. I collaborated closely with cross-functional teams to deliver high-quality software solutions that met the needs of our clients. This role provided me with valuable experience in the full software development lifecycle, enhancing my problem-solving and teamwork skills.",
     icon: React.createElement(LuCode2),
-    date: "2022 - Present",
+    date: "2023 - 2024",
   },
   {
     title: "BCA (Bachelor of Computer Applications)",
@@ -114,16 +122,16 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  // "TypeScript",
+  "TypeScript",
   // "jQuery",
   "HyperScript",
   "HTMX",
   "Python",
 
   // Frontend Development
-  // "React",
+  "React",
   // "Next.js",
-  // "Tailwind",
+  "Tailwind",
   // "Redux",
   // "Framer Motion",
 
@@ -131,12 +139,16 @@ export const skillsData = [
   // "Node.js",
   "Django",
   "Django Rest Framework",
-  // "Flask",
+  "Django Channels",
+  // "FastAPI",
+  "FastAPI",
+  "Flask",
   // "Express",
 
   // Databases
-  // "MongoDB",
+  "MongoDB",
   "PostgreSQL",
+  "MySQL",
 
   // APIs and Services
   // "GraphQL",
