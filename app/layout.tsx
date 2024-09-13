@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   ],
   authors: {
     name: "Manvendra Rajpoot",
-    url: "https://www.alzywelzy.com",
+    url: "https://www.rajpoot.dev",
   },
   robots: {
     index: true,

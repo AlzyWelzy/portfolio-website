@@ -105,7 +105,7 @@ export const projectsData = [
       "Developed an open-source AI-powered web app for automated article summarization, streamlining the reading experience.",
     tags: ["React", "Redux", "Vite", "Tailwind", "TypeScript"],
     imageUrl: articify,
-    project_link: "https://articify.alzywelzy.com/",
+    project_link: "https://articify.rajpoot.dev/",
   },
   // {
   //   title: "Epiphora",
@@ -113,7 +113,7 @@ export const projectsData = [
   //     "Developed a web application for sharing and categorizing interesting facts, featuring real-time voting and fact dispute handling.",
   //   tags: ["React", "SCSS", "Vite", "Supabase", "TypeScript"],
   //   imageUrl: epiphora,
-  //   project_link: "https://epiphora.alzywelzy.com/",
+  //   project_link: "https://epiphora.rajpoot.dev/",
   // },
 ] as const;
 
