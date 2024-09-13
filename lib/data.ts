@@ -163,5 +163,5 @@ export const skillsData = [
   // "Vite",
 ] as const;
 
-export const emailId = "manvendra@alzywelzy.com" as const;
-export const websiteUrl = "alzywelzy.com" as const;
+export const emailId = "manvendra@rajpoot.dev" as const;
+export const websiteUrl = "rajpoot.dev" as const;
