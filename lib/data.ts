@@ -8,7 +8,7 @@ import mozzify from "@/public/mozzify.png";
 import aadhiran_ventures from "@/public/aadhiran_ventures.png";
 import springreen_main_site from "@/public/springreen_main_site.png";
 import { title } from "process";
-import { icons } from "react-icons";
+// import { icons } from "react-icons";
 
 export const links = [
   {
