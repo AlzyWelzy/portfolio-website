@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Manvendra Rajpoot | Personal Portfolio",
   description:
-    "Manvendra Rajpoot is a full-stack developer with 2 years of experience.",
+    "Innovative Full Stack Developer with a Proven Track Record in Building Scalable Web Applications.",
   keywords: [
     "Manvendra Rajpoot",
     "Portfolio",
@@ -23,6 +23,8 @@ export const metadata: Metadata = {
     "Alzy Welzy",
     "welzyalzy",
     "Welzy Alzy",
+    "rajpoot.dev",
+    "www.rajpoot.dev",
   ],
   authors: {
     name: "Manvendra Rajpoot",
@@ -31,20 +33,13 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
   },
   twitter: {
     title: "Manvendra Rajpoot | Personal Portfolio",
     creator: "@AlzyWelzy",
     site: "@AlzyWelzy",
     description:
-      "Manvendra Rajpoot is a full-stack developer with 2 years of experience.",
+      "Innovative Full Stack Developer with a Proven Track Record in Building Scalable Web Applications.",
   },
 };
 
