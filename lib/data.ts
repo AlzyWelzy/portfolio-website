@@ -130,20 +130,20 @@ export const skillsData = [
 
   // Frontend Development
   "React",
-  // "Next.js",
+  "Next.js",
   "Tailwind",
-  // "Redux",
-  // "Framer Motion",
+  "Redux",
+  "Framer Motion",
 
   // Backend Development
-  // "Node.js",
+  "Node.js",
   "Django",
   "Django Rest Framework",
   "Django Channels",
-  // "FastAPI",
   "FastAPI",
+
   "Flask",
-  // "Express",
+  "Express",
 
   // Databases
   "MongoDB",
@@ -152,15 +152,34 @@ export const skillsData = [
 
   // APIs and Services
   // "GraphQL",
-  // "Supabase",
-  // "Vercel",
-  // "AWS",
+  "Supabase",
+  "Vercel",
+  "AWS",
 
   // Version Control
   "Git",
+  "GitHub",
+  "Bitbucket",
+  "GitLab",
 
   // Build Tools
-  // "Vite",
+  "Vite",
+  "Webpack",
+  "ESLint",
+  "Prettier",
+
+
+  // Other
+  "Linux",
+  "Jira",
+  "Figma",
+  "JWT",
+  "Docker",
+  "Kubernetes",
+  "GitHub Actions",
+  "Docker Compose",
+  "Jest",
+  "CI/CD",
 ] as const;
 
 export const emailId = "manvendra@rajpoot.dev" as const;
