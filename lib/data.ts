@@ -124,14 +124,14 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   // "jQuery",
-  "HyperScript",
-  "HTMX",
+  // "HyperScript",
+  // "HTMX",
   "Python",
 
   // Frontend Development
   "React",
   "Next.js",
-  "Tailwind",
+  "Tailwind CSS",
   "Redux",
   "Framer Motion",
 
@@ -139,46 +139,46 @@ export const skillsData = [
   "Node.js",
   "Django",
   "Django Rest Framework",
-  "Django Channels",
-  "FastAPI",
+  // "Django Channels",
+  // "FastAPI",
 
-  "Flask",
+  // "Flask",
   "Express",
 
   // Databases
   "MongoDB",
   "PostgreSQL",
-  "MySQL",
+  // "MySQL",
 
   // APIs and Services
   // "GraphQL",
-  "Supabase",
-  "Vercel",
+  // "Supabase",
+  // "Vercel",
   "AWS",
 
   // Version Control
   "Git",
-  "GitHub",
-  "Bitbucket",
-  "GitLab",
+  // "GitHub",
+  // "Bitbucket",
+  // "GitLab",
 
   // Build Tools
   "Vite",
-  "Webpack",
-  "ESLint",
-  "Prettier",
+  // "Webpack",
+  // "ESLint",
+  // "Prettier",
 
 
   // Other
   "Linux",
-  "Jira",
-  "Figma",
+  // "Jira",
+  // "Figma",
   "JWT",
   "Docker",
   "Kubernetes",
-  "GitHub Actions",
-  "Docker Compose",
-  "Jest",
+  // "GitHub Actions",
+  // "Docker Compose",
+  // "Jest",
   "CI/CD",
 ] as const;
 
