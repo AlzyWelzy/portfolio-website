@@ -42,9 +42,9 @@ export const experiencesData = [
     title: "Full Stack Developer (Radixlink)",
     location: "Chandler, Arizona",
     description:
-      "I have recently joined Radixlink as a Full Stack Developer. In this role, I am responsible for designing and implementing robust and scalable web applications. I collaborate closely with cross-functional teams to deliver high-quality software solutions that meet the needs of our clients. My responsibilities include developing and maintaining both front-end and back-end components, ensuring seamless integration and optimal performance. I also participate in code reviews, contribute to technical documentation, and provide mentorship to junior developers. This position allows me to leverage my expertise in various technologies and frameworks, enhancing my problem-solving and teamwork skills while contributing to the development of innovative solutions. I am committed to staying current with industry trends and continuously improving our development processes to deliver the best possible outcomes for our clients.",
+      "As a Full Stack Developer at Radixlink, I design and build scalable web applications, working closely with cross-functional teams to deliver high-quality software solutions. My role involves developing both front-end and back-end components, ensuring smooth integration and optimal performance. I also participate in code reviews, contribute to technical documentation, and mentor junior developers. This position allows me to utilize my expertise in various technologies, enhance my problem-solving skills, and stay updated with industry trends to continuously improve our development processes.",
     icon: React.createElement(LuCode2),
-    date: "2024 - present",
+    date: "2024 - 2024",
   },
   {
     title: "Full Stack Developer (Springreen)",
