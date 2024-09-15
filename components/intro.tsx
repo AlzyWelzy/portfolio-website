@@ -94,7 +94,8 @@ export default function Intro() {
         <a
           aria-label="Download CV"
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Manvendra_Rajpoot_Resume.pdf"
+          href="/resume"
+          target="_blank"
           download
         >
           Download CV{" "}
@@ -104,7 +105,7 @@ export default function Intro() {
         <a
           aria-label="LinkedIn Profile"
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com/in/AlzyWelzy"
+          href="/linkedin"
           target="_blank"
         >
           <BsLinkedin />
@@ -113,7 +114,7 @@ export default function Intro() {
         <a
           aria-label="Github Profile"
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/AlzyWelzy"
+          href="/github"
           target="_blank"
         >
           <FaGithubSquare />
