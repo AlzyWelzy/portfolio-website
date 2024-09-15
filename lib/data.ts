@@ -133,7 +133,7 @@ export const skillsData = [
   "Next.js",
   "Tailwind CSS",
   "Redux",
-  "Framer Motion",
+  // "Framer Motion",
 
   // Backend Development
   "Node.js",
