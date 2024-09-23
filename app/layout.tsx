@@ -23,6 +23,8 @@ export const metadata: Metadata = {
     "Alzy Welzy",
     "welzyalzy",
     "Welzy Alzy",
+    "manvendra",
+    "rajpoot",
     "rajpoot.dev",
     "www.rajpoot.dev",
   ],
