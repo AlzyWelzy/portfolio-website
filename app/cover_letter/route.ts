@@ -10,7 +10,7 @@ export async function GET() {
         const response = new NextResponse(fileBuffer, {
             headers: {
                 "Content-Type": "application/pdf",
-                "Content-Disposition": `inline; filename="Manvendra_Rajpoot_Cover_Letter.pdf"`,
+                "Content-Disposition": `attachment; filename="Manvendra_Rajpoot_Cover_Letter.pdf"`,
             },
         })
 
