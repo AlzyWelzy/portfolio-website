@@ -27,6 +27,11 @@ const nextConfig = {
         destination: "https://www.facebook.com/AlzyWelzyy",
         permanent: true,
       },
+      {
+        source: "/esyconnect",
+        destination: "https://esyconnect.com/candidate/alzywelzy/",
+        permanent: true,
+      },
     ];
   },
   images: {
