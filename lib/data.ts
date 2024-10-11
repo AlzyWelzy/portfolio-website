@@ -38,21 +38,21 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  // {
-  //   title: "Full Stack Developer (Radixlink)",
-  //   location: "Chandler, Arizona",
-  //   description:
-  //     "As a Full Stack Developer at Radixlink, I design and build scalable web applications, working closely with cross-functional teams to deliver high-quality software solutions. My role involves developing both front-end and back-end components, ensuring smooth integration and optimal performance. I also participate in code reviews, contribute to technical documentation, and mentor junior developers. This position allows me to utilize my expertise in various technologies, enhance my problem-solving skills, and stay updated with industry trends to continuously improve our development processes.",
-  //   icon: React.createElement(LuCode2),
-  //   date: "2024 - 2024",
-  // },
+  {
+    title: "Full Stack Developer (Radixlink)",
+    location: "Chandler, Arizona",
+    description:
+      "As a Full Stack Developer at Radixlink, I design and build scalable web applications, working closely with cross-functional teams to deliver high-quality software solutions. My role involves developing both front-end and back-end components, ensuring smooth integration and optimal performance. I also participate in code reviews, contribute to technical documentation, and mentor junior developers. This position allows me to utilize my expertise in various technologies, enhance my problem-solving skills, and stay updated with industry trends to continuously improve our development processes.",
+    icon: React.createElement(LuCode2),
+    date: "2024 - 2024",
+  },
   {
     title: "Full Stack Developer (Springreen)",
     location: "Salem, Tamil Nadu",
     description:
       "I worked as a Full Stack Developer at Springreen, where I actively contributed to the development of innovative solutions. My responsibilities included designing and implementing robust and scalable web applications. I collaborated closely with cross-functional teams to deliver high-quality software solutions that met the needs of our clients. This role provided me with valuable experience in the full software development lifecycle, enhancing my problem-solving and teamwork skills.",
     icon: React.createElement(LuCode2),
-    date: "2023 - present",
+    date: "2023 - 2024",
   },
   {
     title: "BCA (Bachelor of Computer Applications)",
@@ -122,17 +122,17 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
+  // "TypeScript",
   // "jQuery",
   // "HyperScript",
   // "HTMX",
   "Python",
 
   // Frontend Development
-  "React",
-  "Next.js",
-  "Tailwind CSS",
-  "Redux",
+  // "React",
+  // "Next.js",
+  // "Tailwind CSS",
+  // "Redux",
   // "Framer Motion",
 
   // Backend Development
@@ -140,18 +140,18 @@ export const skillsData = [
   "Django",
   "Django Rest Framework",
   // "Django Channels",
-  // "FastAPI",
+  "FastAPI",
 
   // "Flask",
-  "Express",
+  // "Express",
 
   // Databases
   "MongoDB",
   "PostgreSQL",
-  // "MySQL",
+  "MySQL",
 
   // APIs and Services
-  // "GraphQL",
+  "GraphQL",
   // "Supabase",
   // "Vercel",
   "AWS",
@@ -163,7 +163,7 @@ export const skillsData = [
   // "GitLab",
 
   // Build Tools
-  "Vite",
+  // "Vite",
   // "Webpack",
   // "ESLint",
   // "Prettier",
@@ -176,8 +176,8 @@ export const skillsData = [
   "JWT",
   "Docker",
   "Kubernetes",
-  // "GitHub Actions",
-  // "Docker Compose",
+  "GitHub Actions",
+  "Docker Compose",
   // "Jest",
   "CI/CD",
 ] as const;
