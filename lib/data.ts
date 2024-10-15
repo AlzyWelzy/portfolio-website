@@ -184,3 +184,13 @@ export const skillsData = [
 
 export const emailId = "manvendra@rajpoot.dev" as const;
 export const websiteUrl = "rajpoot.dev" as const;
+
+
+export const documentsName = {
+  'cover_letter': 'Manvendra_Rajpoot_Cover_Letter.pdf'
+  ,
+  'resume': 'Manvendra_Rajpoot_Resume.pdf',
+  'experience_letter': 'Manvendra_Rajpoot_Experience_Letter.pdf'
+}
+
+export const { cover_letter: coverLetterName, resume: resumeName, experience_letter: experienceLetterName } = documentsName
