@@ -122,18 +122,18 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  // "TypeScript",
+  "TypeScript",
   // "jQuery",
   // "HyperScript",
   // "HTMX",
   "Python",
 
   // Frontend Development
-  // "React",
-  // "Next.js",
-  // "Tailwind CSS",
-  // "Redux",
-  // "Framer Motion",
+  "React",
+  "Next.js",
+  "Tailwind CSS",
+  "Redux",
+  "Framer Motion",
 
   // Backend Development
   "Node.js",
@@ -143,7 +143,7 @@ export const skillsData = [
   "FastAPI",
 
   // "Flask",
-  // "Express",
+  "Express",
 
   // Databases
   "MongoDB",
@@ -152,8 +152,8 @@ export const skillsData = [
 
   // APIs and Services
   "GraphQL",
-  // "Supabase",
-  // "Vercel",
+  "Supabase",
+  "Vercel",
   "AWS",
 
   // Version Control
@@ -163,15 +163,15 @@ export const skillsData = [
   // "GitLab",
 
   // Build Tools
-  // "Vite",
+  "Vite",
   // "Webpack",
-  // "ESLint",
-  // "Prettier",
+  "ESLint",
+  "Prettier",
 
 
   // Other
   "Linux",
-  // "Jira",
+  "Jira",
   // "Figma",
   "JWT",
   "Docker",
