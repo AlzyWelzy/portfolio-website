@@ -37,48 +37,55 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Full Stack Developer (Radixlink)",
-    location: "Chandler, Arizona",
-    description:
-      "As a Full Stack Developer at Radixlink, I design and build scalable web applications, working closely with cross-functional teams to deliver high-quality software solutions. My role involves developing both front-end and back-end components, ensuring smooth integration and optimal performance. I also participate in code reviews, contribute to technical documentation, and mentor junior developers. This position allows me to utilize my expertise in various technologies, enhance my problem-solving skills, and stay updated with industry trends to continuously improve our development processes.",
-    icon: React.createElement(LuCode2),
-    date: "2024 - 2024",
-  },
-  {
-    title: "Full Stack Developer (Springreen)",
-    location: "Salem, Tamil Nadu",
-    description:
-      "I worked as a Full Stack Developer at Springreen, where I actively contributed to the development of innovative solutions. My responsibilities included designing and implementing robust and scalable web applications. I collaborated closely with cross-functional teams to deliver high-quality software solutions that met the needs of our clients. This role provided me with valuable experience in the full software development lifecycle, enhancing my problem-solving and teamwork skills.",
-    icon: React.createElement(LuCode2),
-    date: "2023 - 2024",
-  },
-  {
-    title: "BCA (Bachelor of Computer Applications)",
-    location: "Jhansi, Uttar Pradesh",
-    description:
-      "I am currently pursuing my BCA degree at Chandra Sekhar Azad Institute of Science and Technology, which began in 2021 and is expected to conclude in 2024. This program is allowing me to further develop my skills and knowledge in the field of computer applications.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021 - 2024",
-  },
-  {
-    title: "Higher Secondary (Class 11 - Class 12)",
-    location: "Jhansi, Uttar Pradesh",
-    description:
-      "I continued my education at Government Inter College for Class 11 and Class 12, where I further honed my passion for computer science and programming.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2020",
-  },
+export const experiencesData = [{
+  title: "Full Stack Developer (CloudTechtiq)",
+  location: "Jaipur, Rajasthan",
+  description:
+    "As a Full Stack Developer at CloudTechtiq, I focus on building and optimizing scalable backend systems, ensuring seamless authentication, payment processing, and deployment automation. I have designed and implemented multi-tenant architectures with MFA authentication, dynamic configuration management, and automated invoicing to enhance security and flexibility. My role also involves integrating payment gateways like Razorpay, PayPal, and Stripe, handling multi-webhook processing, and streamlining CI/CD pipelines for efficient deployments. Additionally, I work on cloud infrastructure optimization to improve performance, scalability, and cost efficiency while maintaining high system reliability.",
+  icon: React.createElement(LuCode2),
+  date: "2024 - present",
+},
+{
+  title: "Full Stack Developer (Radixlink)",
+  location: "Chandler, Arizona",
+  description:
+    "As a Full Stack Developer at Radixlink, I design and build scalable web applications, working closely with cross-functional teams to deliver high-quality software solutions. My role involves developing both front-end and back-end components, ensuring smooth integration and optimal performance. I also participate in code reviews, contribute to technical documentation, and mentor junior developers. This position allows me to utilize my expertise in various technologies, enhance my problem-solving skills, and stay updated with industry trends to continuously improve our development processes.",
+  icon: React.createElement(LuCode2),
+  date: "2024 - 2024",
+},
+{
+  title: "Full Stack Developer (Springreen)",
+  location: "Salem, Tamil Nadu",
+  description:
+    "I worked as a Full Stack Developer at Springreen, where I actively contributed to the development of innovative solutions. My responsibilities included designing and implementing robust and scalable web applications. I collaborated closely with cross-functional teams to deliver high-quality software solutions that met the needs of our clients. This role provided me with valuable experience in the full software development lifecycle, enhancing my problem-solving and teamwork skills.",
+  icon: React.createElement(LuCode2),
+  date: "2023 - 2024",
+},
+{
+  title: "BCA (Bachelor of Computer Applications)",
+  location: "Jhansi, Uttar Pradesh",
+  description:
+    "I am currently pursuing my BCA degree at Chandra Sekhar Azad Institute of Science and Technology, which began in 2021 and is expected to conclude in 2024. This program is allowing me to further develop my skills and knowledge in the field of computer applications.",
+  icon: React.createElement(LuGraduationCap),
+  date: "2021 - 2024",
+},
+{
+  title: "Higher Secondary (Class 11 - Class 12)",
+  location: "Jhansi, Uttar Pradesh",
+  description:
+    "I continued my education at Government Inter College for Class 11 and Class 12, where I further honed my passion for computer science and programming.",
+  icon: React.createElement(LuGraduationCap),
+  date: "2020",
+},
 
-  {
-    title: "High School (Class 9 - Class 10)",
-    location: "Jhansi, Uttar Pradesh",
-    description:
-      "I was a student at Modern Public School from Class 9 to Class 12, and it was during this time that I discovered my deep interest in computers and programming.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2018",
-  },
+{
+  title: "High School (Class 9 - Class 10)",
+  location: "Jhansi, Uttar Pradesh",
+  description:
+    "I was a student at Modern Public School from Class 9 to Class 12, and it was during this time that I discovered my deep interest in computers and programming.",
+  icon: React.createElement(LuGraduationCap),
+  date: "2018",
+},
 ] as const;
 
 export const projectsData = [
