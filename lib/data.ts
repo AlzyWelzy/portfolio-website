@@ -94,16 +94,16 @@ export const projectsData = [{
   "title": "Internal Team Product (CloudTechtiq)",
   "description": "Designed and developed a new internal product at CloudTechtiq, streamlining team workflows and improving operational efficiency.",
   "tags": ["Django", "Python", "React", "PostgreSQL", "CI/CD"],
-  "imageUrl": "https://cloudtechtiq.com/",
-  "project_link": cloudtechtiq,
+  "project_link": "https://cloudtechtiq.com/",
+  "imageUrl": cloudtechtiq,
 }
   ,
 {
   "title": "Rosterly (Radixlink)",
   "description": "Contributed to the core development of Rosterly.io at Radixlink, enhancing existing features and implementing new functionalities to improve the overall product.",
   "tags": ["Django", "Python", "JavaScript", "React", "PostgreSQL"],
-  "imageUrl": "https://rosterly.io/",
-  "project_link": rosterly,
+  "project_link": "https://rosterly.io/",
+  "imageUrl": rosterly,
 },
 
 {
