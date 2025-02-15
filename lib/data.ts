@@ -7,6 +7,8 @@ import epiphora from "@/public/epiphora.png";
 import mozzify from "@/public/mozzify.png";
 import aadhiran_ventures from "@/public/aadhiran_ventures.png";
 import springreen_main_site from "@/public/springreen_main_site.png";
+import cloudtechtiq from "@/public/cloudtechtiq.png";
+import rosterly from "@/public/rosterly.png";
 import { title } from "process";
 // import { icons } from "react-icons";
 
@@ -41,7 +43,7 @@ export const experiencesData = [{
   title: "Full Stack Developer (CloudTechtiq)",
   location: "Jaipur, Rajasthan",
   description:
-    "As a Full Stack Developer at CloudTechtiq, I focus on building and optimizing scalable backend systems, ensuring seamless authentication, payment processing, and deployment automation. I have designed and implemented multi-tenant architectures with MFA authentication, dynamic configuration management, and automated invoicing to enhance security and flexibility. My role also involves integrating payment gateways like Razorpay, PayPal, and Stripe, handling multi-webhook processing, and streamlining CI/CD pipelines for efficient deployments. Additionally, I work on cloud infrastructure optimization to improve performance, scalability, and cost efficiency while maintaining high system reliability.",
+    "As a Full Stack Developer at CloudTechtiq, I specialize in building and optimizing scalable backend systems, ensuring seamless authentication, payment processing, and deployment automation. I have designed and implemented multi-tenant architectures with MFA authentication, dynamic configuration management, and automated invoicing to enhance security and flexibility. My role also involves integrating payment gateways such as Razorpay, PayPal, and Stripe, managing multi-webhook processing, and streamlining CI/CD pipelines for efficient deployments. Additionally, I optimize cloud infrastructure to improve performance, scalability, and cost efficiency while maintaining high system reliability.",
   icon: React.createElement(LuCode2),
   date: "2024 - present",
 },
@@ -88,32 +90,55 @@ export const experiencesData = [{
 },
 ] as const;
 
-export const projectsData = [
-  {
-    title: "Main Site (Springreen)",
-    description:
-      "Led the complete redesign and redevelopment of the Springreen website, enhancing its visual appeal and user experience to better represent the company.",
-    tags: ["Django", "Python", "JavaScript", "HTML", "CSS"],
-    imageUrl: springreen_main_site,
-    project_link: "https://springreen.in",
-  },
-  {
-    title: "Aadhiran Ventures",
-    description:
-      "Developed a customized web platform for Aadhiran Ventures, providing tailored solutions to meet their business needs at Springreen.",
-    tags: ["Flask", "Python", "JavaScript", "HTML", "CSS"],
-    imageUrl: aadhiran_ventures,
-    project_link: "https://aadhiranventures.com/",
-  },
+export const projectsData = [{
+  "title": "Internal Team Product (CloudTechtiq)",
+  "description": "Designed and developed a new internal product at CloudTechtiq, streamlining team workflows and improving operational efficiency.",
+  "tags": ["Django", "Python", "React", "PostgreSQL", "CI/CD"],
+  "imageUrl": "https://cloudtechtiq.com/",
+  "project_link": cloudtechtiq,
+}
+  ,
+{
+  "title": "Rosterly (Radixlink)",
+  "description": "Contributed to the core development of Rosterly.io at Radixlink, enhancing existing features and implementing new functionalities to improve the overall product.",
+  "tags": ["Django", "Python", "JavaScript", "React", "PostgreSQL"],
+  "imageUrl": "https://rosterly.io/",
+  "project_link": rosterly,
+},
 
-  {
-    title: "Articify",
-    description:
-      "Developed an open-source AI-powered web app for automated article summarization, streamlining the reading experience.",
-    tags: ["React", "Redux", "Vite", "Tailwind", "TypeScript"],
-    imageUrl: articify,
-    project_link: "https://articify.rajpoot.dev/",
-  },
+{
+  title: "Main Site (Springreen)",
+  description:
+    "Led the complete redesign and redevelopment of the Springreen website, enhancing its visual appeal and user experience to better represent the company.",
+  tags: ["Django", "Python", "JavaScript", "HTML", "CSS"],
+  imageUrl: springreen_main_site,
+  project_link: "https://springreen.in",
+},
+{
+  title: "Main Site (Springreen)",
+  description:
+    "Led the complete redesign and redevelopment of the Springreen website, enhancing its visual appeal and user experience to better represent the company.",
+  tags: ["Django", "Python", "JavaScript", "HTML", "CSS"],
+  imageUrl: springreen_main_site,
+  project_link: "https://springreen.in",
+},
+{
+  title: "Aadhiran Ventures",
+  description:
+    "Developed a customized web platform for Aadhiran Ventures, providing tailored solutions to meet their business needs at Springreen.",
+  tags: ["Flask", "Python", "JavaScript", "HTML", "CSS"],
+  imageUrl: aadhiran_ventures,
+  project_link: "https://aadhiranventures.com/",
+},
+
+{
+  title: "Articify",
+  description:
+    "Developed an open-source AI-powered web app for automated article summarization, streamlining the reading experience.",
+  tags: ["React", "Redux", "Vite", "Tailwind", "TypeScript"],
+  imageUrl: articify,
+  project_link: "https://articify.rajpoot.dev/",
+},
   // {
   //   title: "Epiphora",
   //   description:
