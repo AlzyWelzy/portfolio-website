@@ -45,7 +45,7 @@ export const experiencesData = [{
   description:
     "As a Full Stack Developer at CloudTechtiq, I specialize in building and optimizing scalable backend systems, ensuring seamless authentication, payment processing, and deployment automation. I have designed and implemented multi-tenant architectures with MFA authentication, dynamic configuration management, and automated invoicing to enhance security and flexibility. My role also involves integrating payment gateways such as Razorpay, PayPal, and Stripe, managing multi-webhook processing, and streamlining CI/CD pipelines for efficient deployments. Additionally, I optimize cloud infrastructure to improve performance, scalability, and cost efficiency while maintaining high system reliability.",
   icon: React.createElement(LuCode2),
-  date: "2024 - present",
+  date: "October, 2024 - present",
 },
 {
   title: "Full Stack Developer (Radixlink)",
@@ -53,16 +53,16 @@ export const experiencesData = [{
   description:
     "As a Full Stack Developer at Radixlink, I design and build scalable web applications, working closely with cross-functional teams to deliver high-quality software solutions. My role involves developing both front-end and back-end components, ensuring smooth integration and optimal performance. I also participate in code reviews, contribute to technical documentation, and mentor junior developers. This position allows me to utilize my expertise in various technologies, enhance my problem-solving skills, and stay updated with industry trends to continuously improve our development processes.",
   icon: React.createElement(LuCode2),
-  date: "2024 - 2024",
+  date: "June, 2023 - September, 2024",
 },
-{
-  title: "Full Stack Developer (Springreen)",
-  location: "Salem, Tamil Nadu",
-  description:
-    "I worked as a Full Stack Developer at Springreen, where I actively contributed to the development of innovative solutions. My responsibilities included designing and implementing robust and scalable web applications. I collaborated closely with cross-functional teams to deliver high-quality software solutions that met the needs of our clients. This role provided me with valuable experience in the full software development lifecycle, enhancing my problem-solving and teamwork skills.",
-  icon: React.createElement(LuCode2),
-  date: "2023 - 2024",
-},
+// {
+//   title: "Full Stack Developer (Springreen)",
+//   location: "Salem, Tamil Nadu",
+//   description:
+//     "I worked as a Full Stack Developer at Springreen, where I actively contributed to the development of innovative solutions. My responsibilities included designing and implementing robust and scalable web applications. I collaborated closely with cross-functional teams to deliver high-quality software solutions that met the needs of our clients. This role provided me with valuable experience in the full software development lifecycle, enhancing my problem-solving and teamwork skills.",
+//   icon: React.createElement(LuCode2),
+//   date: "2023 - 2024",
+// },
 {
   title: "BCA (Bachelor of Computer Applications)",
   location: "Jhansi, Uttar Pradesh",
@@ -106,30 +106,30 @@ export const projectsData = [{
   "imageUrl": rosterly,
 },
 
-{
-  title: "Main Site (Springreen)",
-  description:
-    "Led the complete redesign and redevelopment of the Springreen website, enhancing its visual appeal and user experience to better represent the company.",
-  tags: ["Django", "Python", "JavaScript", "HTML", "CSS"],
-  imageUrl: springreen_main_site,
-  project_link: "https://springreen.in",
-},
-{
-  title: "Main Site (Springreen)",
-  description:
-    "Led the complete redesign and redevelopment of the Springreen website, enhancing its visual appeal and user experience to better represent the company.",
-  tags: ["Django", "Python", "JavaScript", "HTML", "CSS"],
-  imageUrl: springreen_main_site,
-  project_link: "https://springreen.in",
-},
-{
-  title: "Aadhiran Ventures",
-  description:
-    "Developed a customized web platform for Aadhiran Ventures, providing tailored solutions to meet their business needs at Springreen.",
-  tags: ["Flask", "Python", "JavaScript", "HTML", "CSS"],
-  imageUrl: aadhiran_ventures,
-  project_link: "https://aadhiranventures.com/",
-},
+// {
+//   title: "Main Site (Springreen)",
+//   description:
+//     "Led the complete redesign and redevelopment of the Springreen website, enhancing its visual appeal and user experience to better represent the company.",
+//   tags: ["Django", "Python", "JavaScript", "HTML", "CSS"],
+//   imageUrl: springreen_main_site,
+//   project_link: "https://springreen.in",
+// },
+// {
+//   title: "Main Site (Springreen)",
+//   description:
+//     "Led the complete redesign and redevelopment of the Springreen website, enhancing its visual appeal and user experience to better represent the company.",
+//   tags: ["Django", "Python", "JavaScript", "HTML", "CSS"],
+//   imageUrl: springreen_main_site,
+//   project_link: "https://springreen.in",
+// },
+// {
+//   title: "Aadhiran Ventures",
+//   description:
+//     "Developed a customized web platform for Aadhiran Ventures, providing tailored solutions to meet their business needs at Springreen.",
+//   tags: ["Flask", "Python", "JavaScript", "HTML", "CSS"],
+//   imageUrl: aadhiran_ventures,
+//   project_link: "https://aadhiranventures.com/",
+// },
 
 {
   title: "Articify",
