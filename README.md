@@ -22,6 +22,6 @@ Visit my portfolio website to check out the projects I've worked on, learn more 
 
 ## Contact
 
-If you have any questions or want to collaborate on a project, feel free to reach out to me at [manvendra@rajpoot.dev](mailto:manvendra@rajpoot.dev).
+If you have any questions or want to collaborate on a project, feel free to reach out to me at [manvendra@rajpoot.dev](mailto:manvendra@rajpoot.dev) or connect with me on [LinkedIn](https://www.linkedin.com/in/alzywelzy/).
 
 Thank you for visiting my portfolio website!
