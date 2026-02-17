@@ -1,3 +1,5 @@
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async redirects() {
@@ -34,6 +36,7 @@ const nextConfig = {
       },
     ];
   },
+
   images: {
     remotePatterns: [
       {
@@ -42,9 +45,8 @@ const nextConfig = {
       },
     ],
   },
-  // experimental: {
-  //   serverActions: true,
-  // },
 };
 
-module.exports = nextConfig;
+initOpenNextCloudflareForDev();
+
+export default nextConfig;
