@@ -1,6 +1,21 @@
 "use client";
 
 import React, { useEffect, useState, createContext, useContext } from "react";
+function safeGet(key: string) {
+  try {
+    return window.localStorage.getItem(key);
+  } catch {
+    return null;
+  }
+}
+
+function safeSet(key: string, value: string) {
+  try {
+    window.localStorage.setItem(key, value);
+  } catch {
+    // ignore
+  }
+}
 
 type Theme = "light" | "dark";
 
@@ -23,17 +38,23 @@ export default function ThemeContextProvider({
   const toggleTheme = () => {
     if (theme === "light") {
       setTheme("dark");
-      window.localStorage.setItem("theme", "dark");
+      // window.localStorage.setItem("theme", "dark");
+      safeSet("theme", "dark");
+
       document.documentElement.classList.add("dark");
     } else {
       setTheme("light");
-      window.localStorage.setItem("theme", "light");
+      // window.localStorage.setItem("theme", "light");
+      safeSet("theme", "light");
+
       document.documentElement.classList.remove("dark");
     }
   };
 
   useEffect(() => {
-    const localTheme = window.localStorage.getItem("theme") as Theme | null;
+    // const localTheme = window.localStorage.getItem("theme") as Theme | null;
+    const localTheme = safeGet("theme") as Theme | null;
+
 
     if (localTheme) {
       setTheme(localTheme);
