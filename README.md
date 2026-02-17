@@ -18,7 +18,7 @@ Welcome to my portfolio website, where you can explore my work and learn more ab
 
 ## Explore My Work
 
-Visit my portfolio website to check out the projects I've worked on, learn more about my experience, and get in touch with me.
+Visit my portfolio website to check out the projects I've worked on, learn more about my experience, and get in touch with me. I'm always open to new opportunities and collaborations, so don't hesitate to reach out!
 
 ## Contact
 
